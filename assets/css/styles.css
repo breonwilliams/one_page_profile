@@ -383,8 +383,8 @@ body {
 [data-theme="light"] .profile-tag {
     background: #E8E7E3;  /* Light gray background */
     color: #2C2C2A;  /* Dark text for contrast */
-    border: 1px solid #D0CFCB;  /* Subtle border */
-    font-weight: 500;
+    border: 0.5px solid #D0CFCB;  /* Subtle border - same width as dark mode */
+    /* font-weight stays same as dark mode (400) */
 }
 
 [data-theme="light"] .profile-tag:hover {
@@ -395,7 +395,7 @@ body {
 [data-theme="light"] .profile-tag.add-tag {
     background: #F0EFEB;
     color: var(--color-accent-primary);
-    border: 1px solid #D0CFCB;
+    border: 0.5px solid #D0CFCB;  /* Match dark mode border width */
 }
 
 [data-theme="light"] .profile-tag.add-tag:hover {

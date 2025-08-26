@@ -1,0 +1,51 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background gradient matching site theme -->
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1A1A18" />
+      <stop offset="100%" style="stop-color:#262624" />
+    </linearGradient>
+    
+    <!-- Text gradient for accent -->
+    <linearGradient id="accentGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#6C5BB9" />
+      <stop offset="100%" style="stop-color:#D97757" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#bgGradient)"/>
+  
+  <!-- Decorative circles -->
+  <circle cx="100" cy="100" r="150" fill="#6C5BB9" opacity="0.05"/>
+  <circle cx="1100" cy="530" r="200" fill="#D97757" opacity="0.05"/>
+  
+  <!-- Main content -->
+  <g transform="translate(600, 315)">
+    <!-- Name -->
+    <text x="0" y="-80" font-family="system-ui, -apple-system, sans-serif" font-size="72" font-weight="700" fill="#FAF9F5" text-anchor="middle">
+      Breon Williams
+    </text>
+    
+    <!-- Title with gradient -->
+    <text x="0" y="0" font-family="system-ui, -apple-system, sans-serif" font-size="36" font-weight="400" fill="url(#accentGradient)" text-anchor="middle">
+      Indie Hacker & SaaS Builder
+    </text>
+    
+    <!-- Tagline -->
+    <text x="0" y="80" font-family="system-ui, -apple-system, sans-serif" font-size="24" fill="#8A8983" text-anchor="middle">
+      Building products that solve real problems
+    </text>
+  </g>
+  
+  <!-- Bottom accent bar -->
+  <rect x="0" y="620" width="1200" height="10" fill="url(#accentGradient)" opacity="0.8"/>
+  
+  <!-- Small brand mark in corner -->
+  <g transform="translate(60, 550)">
+    <rect x="0" y="0" width="50" height="50" rx="10" fill="#1A1A18" stroke="#3A3A38" stroke-width="1"/>
+    <text x="25" y="35" font-family="system-ui, -apple-system, sans-serif" font-size="24" font-weight="700" fill="#FAF9F5" text-anchor="middle">
+      B
+    </text>
+  </g>
+</svg>
