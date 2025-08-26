@@ -1,0 +1,13 @@
+{
+  "functions": {
+    "api/threads.js": {
+      "maxDuration": 10
+    }
+  },
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/$1"
+    }
+  ]
+}
